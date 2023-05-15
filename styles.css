@@ -1,7 +1,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 
@@ -13,11 +12,6 @@ header{
     border-bottom-style: solid;
     border-bottom-color: #C73866;
     position: sticky;
-}
-
-header img{
-    margin-left: 20%;
-    margin-bottom: 5%;
 }
 
 nav{
@@ -39,20 +33,102 @@ nav a:hover{
     color: #FBC6D0;
 }
 
+/*LAPTOP LAYOUT*/
+@media screen and (min-width: 768px) {
 
-footer{
-    color: #C73866;
-    font-family: 'Rufina', serif;
-    font-size: 18px;
-    padding-top: 1.5cm;
-    padding-bottom: 1.5cm;    
-    padding-left: 3cm;
-    padding-right: 3cm;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .mobilheader {
+        display:none;
+    }
 
+    .laptopheader img{
+        margin-left: 15%;
+    }
+
+    .laptopheader img{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    #forsidemain_laptop img{
+        display: block;
+        width: 100%;
+    }
+
+    #forsidemain_mobil img{
+        display: none;
+        width: 100%;
+    }
+
+    footer{
+        color: #C73866; 
+        font-family: 'Rufina', serif;
+        font-size: 18px;
+        padding: 2%; 
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #C73866;
+    }
+    
+    
+    footer div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+  /*MOBIL LAYOUT*/
+  @media screen and (max-width: 768px) {
+
+    .mobilheader{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .mobilheader img{
+        margin-top: 10%;
+        max-width: 120px;
+    }
+
+    #burgermenu{
+        margin-top: 40%;
+    }
+
+    .laptopheader{
+        display: none;
+    }
+
+    nav{
+        display:none;
+    }
+
+    #forsidemain_mobil img{
+        display: block;
+        width: 100%;
+        height: 530px;
+    }
+
+    #forsidemain_laptop img{
+        display: none;
+        width: 100%;
+    }
+
+    footer{
+        color: #C73866; 
+        font-family: 'Rufina', serif;
+        font-size: 18px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #C73866;
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+    
+    footer div{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }    
+  }
 
 
 
