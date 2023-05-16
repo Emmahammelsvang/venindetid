@@ -11,7 +11,6 @@ header{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #C73866;
-    position: sticky;
 }
 
 nav{
@@ -32,6 +31,174 @@ nav a{
 nav a:hover{
     color: #FBC6D0;
 }
+
+h1{
+    font-family: 'Rufina', serif;
+    color: #494038;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h2{
+    font-family: 'Rufina', serif;
+    color: #494038;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17pt;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 3%; 
+}
+
+p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 38px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.tokort section{
+    margin-top: 5%;
+}
+
+.tokort img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tokort h1{
+    font-family: 'Rufina', serif;
+    color: #494038;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28pt;
+    line-height: 32px;
+    text-align: center;
+    padding: 1%;
+}
+
+.tokort h3{
+    font-family: 'Rufina', serif;
+    color: #494038;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.tokort p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 38px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#stepbystep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#stepbystep section{
+    max-width: 450px;
+    height: 30%;
+}
+
+#stepbystep img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#stepbystep h4{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #494038;
+    padding-bottom: 3%;
+}
+
+#stepbystep p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #494038;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.anmeldelser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.anmeldelser section{
+    max-width: 320px;
+    color: #FBC6D0;
+    background-color: #C73866;
+    margin-bottom: 5%;
+}
+
+.anmeldelser p{
+    font-size: 11pt;
+}
+
+.infoboks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #C73866;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.infoboks h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14;
+    line-height: 100px;
+    text-align: center;
+    color: #FBC6D0;
+}
+
+.infoboks p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12;
+    line-height: 32px;
+    text-align: center;
+    color: #FBC6D0;
+    padding-bottom: 10%;
+}
+
+
 
 /*LAPTOP LAYOUT*/
 @media screen and (min-width: 768px) {
@@ -59,6 +226,124 @@ nav a:hover{
         width: 100%;
     }
 
+    .laptopbillede{
+        display: block;
+    }
+
+    .mobilbillede{
+        display: none;
+    }
+
+    .tokort, .tokortlaptop {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .tokort section, .tokortlaptop section{
+        width: 50%;
+    }
+
+    .tokortmobil{
+        display: none;
+    }
+
+    .tokortlaptop section{
+        margin-top: 5%;
+    }
+    
+    .tokortlaptop img{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .tokortlaptop h1{
+        font-family: 'Rufina', serif;
+        color: #494038;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28pt;
+        line-height: 32px;
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .tokortlaptop h3{
+        font-family: 'Rufina', serif;
+        color: #494038;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 32px;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    .tokortlaptop p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12pt;
+        line-height: 38px;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .tokortlaptop h4{
+        font-family: 'Montserrat';
+        color: #494038;
+        font-size: 12pt;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .tokortlaptop ul{
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    
+    .tokortlaptop li{
+        font-family: 'Montserrat';
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .knapmobil{
+        display: none;
+    }
+
+    .knaplaptop{
+        background-color: #FC6E51;
+        color: #FBC6D0;
+        border: none;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        margin-left: 45%;
+        margin-top: 7%;
+    }
+
+    .firebilledermobil{
+        display: none;
+    }
+
+    .firebillederlaptop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 8%;
+    }
+    
+    .firebillederlaptop div{
+        max-width: 300px;
+    }
+
     footer{
         color: #C73866; 
         font-family: 'Rufina', serif;
@@ -72,9 +357,11 @@ nav a:hover{
     
     footer div {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
   }
+
+
 
   /*MOBIL LAYOUT*/
   @media screen and (max-width: 768px) {
@@ -110,6 +397,119 @@ nav a:hover{
     #forsidemain_laptop img{
         display: none;
         width: 100%;
+    }
+
+    .laptopbillede{
+        display: none;
+    }
+
+    .mobilbillede{
+        display: block;
+    }
+
+    .tokortmobil{
+        display: block;
+    }
+
+    .tokortlaptop{
+        display: none;
+    }
+
+    .tokortmobil section{
+        margin-top: 5%;
+    }
+    
+    .tokortmobil img{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .tokortmobil h1{
+        font-family: 'Rufina', serif;
+        color: #494038;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28pt;
+        line-height: 32px;
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .tokortmobil h3{
+        font-family: 'Rufina', serif;
+        color: #494038;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 32px;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    .tokortmobil p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12pt;
+        line-height: 38px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .tokortmobil h4{
+        font-family: 'Montserrat';
+        color: #494038;
+        font-size: 12pt;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .tokortmobil ul{
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    
+    .tokortmobil li{
+        font-family: 'Montserrat';
+        text-align: left;
+        line-height: 25px;
+        font-size: 10pt;
+    }
+
+    .knaplaptop{
+        display: none;
+    }
+
+    .knapmobil{
+        background-color: #FC6E51;
+        color: #FBC6D0;
+        border: none;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    .firebillederlaptop{
+        display: none;
+    }
+
+    .firebilledermobil{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 5%;
+    }
+    
+    .firebilledermobil div{
+        max-width: 300px;
+        padding-top: 5%;
     }
 
     footer{
