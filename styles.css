@@ -32,6 +32,10 @@ nav a:hover{
     color: #FBC6D0;
 }
 
+header nav a:hover{
+    text-decoration: underline;
+}
+
 h1{
     font-family: 'Rufina', serif;
     color: #494038;
@@ -39,8 +43,7 @@ h1{
     font-weight: 400;
     font-size: 20pt;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 3%;
+    padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -160,7 +163,6 @@ p{
     max-width: 320px;
     color: #FBC6D0;
     background-color: #C73866;
-    margin-bottom: 5%;
 }
 
 .anmeldelser p{
@@ -308,7 +310,19 @@ p{
     .tokortlaptop li{
         font-family: 'Montserrat';
         text-align: left;
-        line-height: 25px;
+        line-height: 32px;
+    }
+
+    .tokort ul{
+        margin-top: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .tokort li{
+        font-family: 'Montserrat';
+        text-align: left;
+        line-height: 32px; 
     }
 
     .knapmobil{
@@ -365,6 +379,10 @@ p{
 
   /*MOBIL LAYOUT*/
   @media screen and (max-width: 768px) {
+
+    h1{
+        padding-top: 10%;
+    }
 
     .mobilheader{
         padding-top: 2%;
@@ -431,7 +449,6 @@ p{
         font-style: normal;
         font-weight: 400;
         font-size: 28pt;
-        line-height: 32px;
         text-align: center;
         padding: 1%;
     }
@@ -442,7 +459,6 @@ p{
         font-style: normal;
         font-weight: 400;
         font-size: 14pt;
-        line-height: 32px;
         text-align: center;
         padding-bottom: 5%;
     }
@@ -452,7 +468,6 @@ p{
         font-style: normal;
         font-weight: 400;
         font-size: 12pt;
-        line-height: 38px;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -476,6 +491,22 @@ p{
         text-align: left;
         line-height: 25px;
         font-size: 10pt;
+    }
+
+    .tokort ul{
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+
+    .tokort li{
+        font-family: 'Montserrat';
+        text-align: left;
+        line-height: 25px;
+        font-size: 11pt;
+    }
+
+    .anmeldelser section{
+        margin-bottom: 5%;
     }
 
     .knaplaptop{
