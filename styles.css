@@ -171,6 +171,11 @@ p{
     font-size: 11pt;
 }
 
+.anmeldelser section:hover {
+    background-color: #FBC6D0;
+    color: #C73866;
+}
+
 .infoboks{
     display: flex;
     flex-wrap: wrap;
